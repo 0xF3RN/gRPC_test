@@ -1,0 +1,15 @@
+asyncio==3.4.3
+blinker==1.8.2
+click==8.1.7
+Flask==3.0.3
+Flask-Cors==4.0.1
+grpcio==1.65.1
+grpcio-tools==1.65.1
+itsdangerous==2.2.0
+Jinja2==3.1.4
+MarkupSafe==2.1.5
+protobuf==5.27.2
+psycopg-binary==3.2.1
+psycopg2-binary==2.9.9
+python-dotenv==1.0.1
+Werkzeug==3.0.3

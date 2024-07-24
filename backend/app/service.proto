@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package service;
+
+service DatabaseService {
+    rpc GetData(Empty) returns (DataResponse);
+}
+
+message Empty {}
+
+message DataItem {
+    int32 id = 1;
+    string text = 2;
+}
+
+message DataResponse {
+    repeated DataItem data = 1;
+}
