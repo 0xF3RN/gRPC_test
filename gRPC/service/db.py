@@ -13,10 +13,10 @@ DB_PASS = os.getenv('DB_PASS')
 
 def get_data():
     conn = psycopg2.connect(
-        host=DB_HOST,
-        database=DB_NAME,
-        user=DB_USER,
-        password = DB_PASS
+        host='db',
+        database='test',
+        user='postgres',
+        password = 'password'
     )
     cur = conn.cursor()
     cur.execute('select * from data;') 
